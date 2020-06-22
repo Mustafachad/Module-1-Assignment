@@ -1,0 +1,104 @@
+<html>
+<head>
+<style>
+.myDiv {
+	border: 4px outset black;
+	background-color: pink;
+	text-align: center;
+}
+</style>
+</head>
+<style>
+
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: pink;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+</style>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<body style="background-color:E4E0E0">
+<center> 
+<img src="images/mustafachadury1.jpg" width=250 height="350">
+<br>
+<br>  
+<div class="myDiv">
+<script>
+	var mybutton= document.getElementById("myBtn");
+	window.onscroll= function() {scrollFunction()};
+	function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	<h1 style="color:white";><strong> Resume </strong></h1>
+	<b>Mustafa Chadury<br>
+	Full-Time Student<br>
+	Attending Moorpark College<br></b>
+</center>
+<button type="button" onclick="myFunction()">Explanation</button>
+
+<p id="demo1"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo1").innerHTML = "I used JavaScript to create a button that will take the user back to the top. I was also able to use JavaScript to show the follow message. ";
+}
+</script>
+<center><br><p> Hello, my name is Mustafa Chadury. 
+<br>I am a recent high school graduate and have just started my first course at Moorpark College.
+<br>I am interested in going into either the medical field or anything that may involve coding.
+<br> During high school, I particapated in the music program and was able to learn how to play a double bass.
+<br> Though I do have many hobbies, I love playing basketball the most out of all of them.
+</p></center>
+
+<h2>Education</h2>
+<p> Moorpark High School.
+<br> Graduated in 2020 
+<br> GPA:3.8
+</p>
+
+<h2 style="color:AB0DDD";>Skills</h2>
+
+<ul>
+<br><li>Word Processing</li>
+<br><li>Presentation tools</li>
+<br><li>Communication Tools</li>
+<br><li>Spreadsheets</li>
+<br><li>Video Editing</li>
+<br><li>Musical Capability</li>
+</ul>
+<h2 style="color:0DA7DD";>Extra-Curricular Activites</h2>
+<ol>
+<br><li>Moorpark High School Concert Orchestra</li>
+<br><li>Basketball Coach for the Teen Divison at Moorpark Recreational Center</li>
+<br><li>Lifetime member of California Scholarship Federation</li>
+<br><li>Secretary of Islamic Society of Simi Valley Youth Group (2016) </li>
+<br><li>Vice-President of Islamic Society of Simi Valley Youth Group (2017) </li>
+<br><li>Treasurer of Islamic Society of Simi Valley Youth Group (2019) </li>
+</ol>
+<h2>Awards</h2>
+<p>Outstanding Musician (2019)
+<br>Ninth place in Management and Decision Making for FBLA (Regional)	
+	
+
+
+</body>
+</html>
